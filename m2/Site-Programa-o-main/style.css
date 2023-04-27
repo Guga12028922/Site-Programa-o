@@ -38,7 +38,7 @@ body{
 }
 
 .loja-div-conteudo{
-    width: 35%;
+    width: 45%;
 }
 
 .loja-titulo{
@@ -47,9 +47,28 @@ body{
 
 .imagem-produto{
     width: 375px;
-    text-align: center;
 }
 
 .produtos-div{
+    text-align: center;
+}
+.produto-titulo{
+    text-align: center;
+    padding: 100px 0;
+}
+
+.loja-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20% ;
+}
+
+.rodape{
+    background-color:white;
+    text-align: center;
+}
+.rodape-imagem{
+    padding: 100px 0;
+}
+.rodape2{
     text-align: center;
 }
